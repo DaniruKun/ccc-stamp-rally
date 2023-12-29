@@ -1,9 +1,7 @@
 <script lang="ts">
 	import { version } from '$app/environment';
 
-	const coverCorpURL = 'https://cover-corp.com';
-	const hololiveURL = 'https://hololive.hololivepro.com/en';
-	const daniruKunDiscordURL = 'http://discordapp.com/users/511267995214151721';
+	const danirukunURL = 'https://twitter.com/danirukun';
 </script>
 
 <svelte:head>
@@ -15,7 +13,7 @@
 </svelte:head>
 
 <div class="mx-4 my-4 space-y-4 font-geologica text-lg">
-	<p class="text-4xl text-primary">HoloQuest companion app</p>
+	<p class="text-4xl text-primary">CCC Stamp Rally</p>
 
 	<p>Build version <span class="font-mono">{version}</span></p>
 
@@ -64,18 +62,13 @@
 	</svg>
 
 	<p>
-		Reach out to <a href={daniruKunDiscordURL} class="link-secondary link">@danirukun</a> for inquiries.
+		Reach out to <a href={danirukunURL} class="link-secondary link">@danirukun@chaos.social</a> for inquiries.
 	</p>
-
-	<a href="https://forms.gle/K744AfWbi2HSKdzU6" class="btn-secondary btn rounded-full text-white"
-		>Support Form</a>
 
 	<h2 class=" text-2xl text-secondary">Help</h2>
 	<p>
-		Scan the QR code found on the HoloQuest stamps to collect them. Your collected stamps will show
-		up on your <b>stamp sheet</b>. Tap a stamp to see where to find it. Once you find all stamps,
-		take your stamp sheet to the Fan Booth.
-	</p>
+		Scan the QR code found on the stamps to collect them. Your collected stamps will show
+		up on your <b>stamp sheet</b>. Tap a stamp to see where to find it.</p>
 
 	<p>
 		You can appear in the online leaderboard and scan events under your own name. To change your
@@ -94,18 +87,7 @@
 		<li class="list-item">
 			If the QR code scanner stops working, close the tab and browser completely and restart it.
 		</li>
-		<li class="list-item">To more easily find exhibitors, install the DoKomi 2023 app.</li>
 	</ul>
 
 	<h2 class="text-2xl text-secondary">Legal</h2>
-	<p>
-		This is a fan project for the DoKomi 2023 Hololive fan booth after approval by <a
-			href={coverCorpURL}
-			class="link-primary link">COVER Corp.</a> within the rules of the fan work guidelines.
-	</p>
-	<p>
-		Not affiliated in any formal way with <a href={coverCorpURL} class="link-primary link"
-			>COVER Corp.</a>
-		or <a href={hololiveURL} class="link-primary link">holopro.</a>
-	</p>
 </div>

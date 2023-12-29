@@ -42,9 +42,10 @@
 			</div>
 			<div class="flex">
 				<a
+					id="logo"
 					class="btn-ghost btn bg-gradient-to-br from-primary to-secondary bg-clip-text font-geologica text-xl normal-case text-transparent"
 					href="/">
-					HoloQuest
+					CCCRally
 				</a>
 			</div>
 			<div class="absolute right-1 flex">
